@@ -119,6 +119,12 @@ p {
 #navbar {
 }
 
+/*  */
+.avatar {
+  width: 55%;
+  border-radius: 50%;
+}
+
 /* for below 768px screen width */
 
 @media screen and (max-width: 768px) {
