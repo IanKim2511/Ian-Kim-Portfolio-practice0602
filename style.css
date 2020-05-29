@@ -60,16 +60,21 @@
   --animation_1s_duration: 1s;
 }
 
-/* Universal tags */
+/*  Universal  tags */
+
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Open Sans", sans-serif;
-  font-family: "Source Sans Pro", sans-serif;
-}
 
+  margin: 0;
+  cursor: default;
+}
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
 ul {
   list-style: none;
   padding-left: 0;
