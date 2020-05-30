@@ -115,13 +115,72 @@ p {
   margin: 4px 0;
 }
 
+/* logo img..내 개인적인 설정 */
+
+#home .home__avatar {
+  width: 55%;
+}
+
+.job .job__logo {
+  width: 32px;
+}
+
 /* Navbar */
 #navbar {
+  position: fixed;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  /*  */
+  background-color: transparent;
+  align-items: center;
+  color: var(--color-black);
+  padding: 16px;
+
+  /*  */
+  transition: all var(--animation_1s_duration) ease-in-out;
+
+  z-index: 1;
 }
 
 /*  */
+
+.navbar__menu {
+  display: flex;
+
+  /* justify-content: space-between;
+    margin-right: 20px;
+    width: 50%; */
+}
+/*  */
+.major {
+  margin-bottom: 38px;
+}
+
+.project {
+  flex-grow: 1;
+}
+
+.testimonial__avatar {
+  width: 80px;
+}
+
+.navbar__menu__item{
+    padding: 8px 12px;
+    
+}
+
+
+.navbar__menu__item:hover {
+  background-color: var(--color-orange);
+  border-radius: var(--size-border-radius);
+  border-style: solid 1px var(--color-black);
+}
+
+/* home */
 .avatar {
-  width: 55%;
+  width: 25%;
   border-radius: 50%;
 }
 
