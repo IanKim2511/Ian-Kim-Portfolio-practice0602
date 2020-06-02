@@ -1,2 +1,1 @@
-# Ian Kim Portfolio
- Ian Kim's Portfolio
+# Ian-Kim-Portfolio-practice0602
