@@ -184,6 +184,11 @@ p {
   border-radius: 50%;
 }
 
+
+.skill__value{
+  height: 3px;
+  background-color: var(--color-orange);
+}
 /* for below 768px screen width */
 
 @media screen and (max-width: 768px) {
