@@ -20,6 +20,34 @@ navbarToggleBtn.addEventListener('click',()=>{
     navbarMenu.classList.toggle('open');
 });
 
+
+// arrow-up. button when scrolling down
+// 1/2 of homeheight. adding visible class 
+
+const arrowUp= document.querySelector('.arrow-up');
+document.addEventListener('scroll'   ,()=>{
+  if(window.scrollY > homeHeight/2){
+    arrowUp.classList.add('visible');
+
+  }else{
+    arrowUp.classList.remove('visible');
+
+  }
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 // c72. remove selection from the previous item and select the next selection 
 
 const active = document.querySelector('.category__btn.selected');

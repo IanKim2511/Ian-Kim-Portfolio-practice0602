@@ -527,9 +527,32 @@ p {
   color: var(--color-blue);
 }
 
-/* acroll arrow up */
-.
+/* scroll arrow up */
+.arrow-up{
+  background-color: var(--color-blue);
+  border-radius: 50%;
+  color: var(--color-orange);
+  font-size: 50px;
+  height: 70px;
+  width: 70px;
 
+  /*  */
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  /*  */
+  opacity: 0;
+  /* click */
+  pointer-events: none;
+  transition: all var(--animation_duration) ease-in;
+
+}
+
+/* visible  */
+.arrow-up.visible{
+  opacity: 1;
+  pointer-events: auto;
+}
 
 
 
@@ -565,4 +588,8 @@ p {
   .navbar__menu.open {
     display: block;
   }
+
+  .arrow-up{
+
+   
 }
