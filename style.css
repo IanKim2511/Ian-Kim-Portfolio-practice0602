@@ -395,11 +395,15 @@ p {
   transition: all var(--animation_duration) ease-in;
 }
 
+.work__projects{
+  display: flex;
+}
 /* c70. js */
 .work__projects.anim-out {
   opacity: 0.6;
   transform: scale(0.9) translateY(40px);
 }
+
 
 /* q. img : making same size. . img upper container size  */
 
@@ -605,6 +609,20 @@ p {
   .skillset {
     flex-direction: column;
   }
+  .work__projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+    
+    /* align-content: center; */
+  }
+
+  .project{
+    flex-grow: 1;
+  }
+
+
   .category__btn {
     padding: 8px;
     width: 100%;
