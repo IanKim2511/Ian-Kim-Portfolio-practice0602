@@ -260,8 +260,8 @@ p {
   line-height: 170px;
   font-size: 70px;
   margin: auto;
-  color: var(--color-blue);
-  border: 1px solid var(--color-blue);
+  color: var(--color-orange);
+  border: 1px solid var(--color-orange);
   border-radius: 50%;
   margin-bottom: 16px;
 }
@@ -273,7 +273,7 @@ p {
 
 /* hover */
 .major__icon:hover i {
-  color: var(--color-orange);
+  color: var(--color-blue);
   transform: rotate(-30deg) scale(1.5);
 }
 
@@ -395,7 +395,7 @@ p {
   transition: all var(--animation_duration) ease-in;
 }
 
-.work__projects{
+.work__projects {
   display: flex;
 }
 /* c70. js */
@@ -403,7 +403,6 @@ p {
   opacity: 0.6;
   transform: scale(0.9) translateY(40px);
 }
-
 
 /* q. img : making same size. . img upper container size  */
 
@@ -609,19 +608,18 @@ p {
   .skillset {
     flex-direction: column;
   }
-  .work__projects{
+  .work__projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* flex-direction: column; */
-    
+
     /* align-content: center; */
   }
 
-  .project{
+  .project {
     flex-grow: 1;
   }
-
 
   .category__btn {
     padding: 8px;
